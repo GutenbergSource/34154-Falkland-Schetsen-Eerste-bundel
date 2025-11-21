@@ -1,13 +1,21 @@
 <!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite 1.0//EN" [
 
-<!ENTITY florin CDATA "&#x0192;" -- Florin currency symbol (Netherlands) -->
+    <!ENTITY apos    CDATA "&#x2019;"  --    1868 -->
+    <!ENTITY bdquo   CDATA "&#x201E;"  --    1877 -->
+    <!ENTITY dagger  CDATA "&#x2020;"  --       3 -->
+    <!ENTITY florin  CDATA "&#x0192;"  --      15 -->
+    <!ENTITY ldquo   CDATA "&#x201C;"  --       2 -->
+    <!ENTITY mdash   CDATA "&#x2014;"  --     239 -->
+    <!ENTITY nbsp    CDATA "&#x00A0;"  --       1 -->
+    <!ENTITY ndash   CDATA "&#x2013;"  --       1 -->
+    <!ENTITY rdquo   CDATA "&#x201D;"  --    1868 -->
 
 ]>
 <TEI.2 lang=nl-1900>
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title>Schetsen</title>
+<title>Schetsen (Eerste bundel)</title>
 <author key="Heijermans, Herman" ref="https://viaf.org/viaf/32107862/">Samuel Falkland [Pseud. van Herman Heijermans (1864&ndash;1924)]</author>
 <respStmt><resp>Transcription</resp> <name key="Hellingman, Jeroen">Jeroen Hellingman</name></respStmt>
 </titleStmt>
@@ -23,14 +31,12 @@
 <availability lang=nl>
 <p>&availability.nl;
 
-<p>Dit eBoek is geproduceerd door het on-line gedistribueerd correctieteam op <xref url="http://www.pgdp.net/">www.pgdp.net</xref>.
+<p>Dit eBoek is geproduceerd door het on-line gedistribueerd correctieteam op <xref url="https://www.pgdp.net/">www.pgdp.net</xref>.
 
 </availability>
 </publicationStmt>
 <notesStmt>
     <note type="Description">Deze schetsen van Samuel Falkland (een pseudoniem van Herman Heijermans Jr.) verschenen tussen 1894 en 1911, eerst in de Telegraaf en later in het Algemeen Dagblad. In zijn tijd waren zijn &ldquo;falklandjes&rdquo; net zo populair als later de &ldquo;kronkels&rdquo; van Simon Carmiggelt, en werden ook gebundeld uitgeven. Van deze uitgaven is dit het eerste deeltje.</note>
-    <note type="Blurb">Kort stukje promotionele tekst voor op de achterflap.</note>
-    <note type="Extract">Kort extract uit de tekst.</note>
 </notesStmt>
 <sourceDesc>
 <bibl>
@@ -65,13 +71,13 @@
     </list>
 </revisionDesc>
 </teiHeader>
-<text>
+<text rend="stylesheet(style/classic.css)">
 <front id=frontmatter>
 <div1 id=cover type=Cover>
 
 
-<p><figure id=cover-image rend="image(images/new-cover.jpg)">
-<figDesc>Nieuw ontworpen voorkant.</figDesc>
+<p><figure id=cover-image rend="image(images/front.jpg)">
+<figDesc>Oorspronkelijke voorkant.</figDesc>
 </figure>
 
 
@@ -83,6 +89,14 @@
 
 
 <pb>
+<div1 id=titlepage type=TitlePage>
+
+
+<p><figure id=titlepage-image rend="image(images/titlepage.png)">
+<figDesc>Oorspronkelijke titelpagina.</figDesc>
+</figure>
+
+
 <titlePage>
 <docTitle><titlePart>Schetsen</titlePart></docTitle>
 
@@ -93,7 +107,7 @@
 <lb>(<hi rend=sc>Herm. Heijermans Jr.</hi>)
 </byline>
 
-<docTitle><titlePart type=Volume>Eerste bundel</titlePart></docTitle>
+<docTitle><titlePart type=volume>Eerste bundel</titlePart></docTitle>
 
 <docImprint>Tweede druk
 
